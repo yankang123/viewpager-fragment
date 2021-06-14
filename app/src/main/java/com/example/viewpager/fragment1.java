@@ -19,6 +19,8 @@ public class fragment1 extends Fragment {
         Button button= (Button) view.findViewById(R.id.frag_1);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
+
+
             public void onClick(View v) {
                 Toast.makeText(getContext(),"碎片1",Toast.LENGTH_LONG).show();
             }
